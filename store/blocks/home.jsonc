@@ -54,26 +54,25 @@ as props podem se aplicar de maneira a alinhar e estilizar o texto de diferentes
         "callToActionMode": "button",
         "callToActionText": "Explore",
         "callToActionUrl": "/sale/d",
-        "textAlignment": "center"
+        "textAlignment": "center",
+        "blockClass" : "vintage"
 
 
     }
   },  
-
-
-
 
   "info-card#button-left": {
     "props": {
         "isFullModeStyle": false,
         "textPosition": "left",
         "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
-        "headline": "Shining chrome",
+        "headline": "Shining chrome ",
         "subhead": " Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
         "callToActionMode": "link",
         "callToActionText": "Go to Collection",
         "callToActionUrl": "/sale/d",
-        "textAlignment": "center"
+        "textAlignment": "center",
+        "blockClass": "metal"
 
 
     }
