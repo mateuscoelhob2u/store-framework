@@ -1,7 +1,31 @@
 {
   "store.home": { 
     "blocks": [
-      
+      "rich-text"
     ]
+  },
+    "rich-text": {
+      "props":{
+        // para ver estililos de um texto, acesse: https://www.markdownguide.org/cheat-sheet/
+        "text": "**Primeiro exemplo de printf direto no site, em negrito**",
+        "textPosition" :"RIGHT"
+    /*
+    Para acessar essas infos de rich text, acesse: https://vtex.io/docs/app/vtex.rich-text@0.11.0/
+    Este exemplo mostra como utilizar as propriedades do rich text por completo.
+    as props podem se aplicar de maneira a alinhar e estilizar o texto de diferentes formas.
+
+    "rich-text":  {
+      "props": {
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "text": "Visit our [help](https://help.vtex.com/en/faq/what-is-vtex-io) section.\n*Be Bold!*\n**This is italic**",
+        "textColor": "c-on-emphasis",
+        "font": "t-heading-5",
+        "blockClass": "help-message"
+               }
+                    }
+*/        
+      }
+
   }
 }
