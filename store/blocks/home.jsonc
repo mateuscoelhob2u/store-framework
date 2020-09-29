@@ -1,18 +1,18 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text",
+      /*"rich-text",
       "info-card",
       //se voce quiser criar dois blocos do mesmo estilo, se faz nescessario nomear o bloco, atraves de um #
       "info-card#button-right", 
-      "info-card#button-left",
-      "flex-layout.row" : {
+      "info-card#button-left", */
+      "flex-layout.row":{
         "children": [
           "info-card#rethink",
           "rich-text#deletar"
         ]
       },
-      "flex-layout.col" : {
+      "flex-layout.col":{
         "children": [
           "image#electronics",
           "image#major-appliance"
@@ -21,7 +21,7 @@
     
     ]
   },
-    "rich-text": {
+/*    "rich-text": {
       "props":{
         // para ver estililos de um texto, acesse: https://www.markdownguide.org/cheat-sheet/
         "text": "**Primeiro exemplo de printf direto no site, em negrito**",
@@ -39,7 +39,7 @@ as props podem se aplicar de maneira a alinhar e estilizar o texto de diferentes
       "blockClass": "help-message"
             }
                 }
-*/        
+        
     
       }
 
@@ -74,7 +74,7 @@ as props podem se aplicar de maneira a alinhar e estilizar o texto de diferentes
   },  
 /*se voce reparar, existe uma linha chamada BLOCKCLASS, ela eh responsavel por estilizar o bloco.
 os parametros dessa estilizacao estao presentes no arquivo vtex.store-components.css, localizado
-na pasta de css*/
+na pasta de css
   "info-card#button-left": {
     "props": {
         "isFullModeStyle": false,
@@ -90,7 +90,7 @@ na pasta de css*/
 
 
     }
-  },
+  },  */
 
   "info-card#rethink": {
     "props": {
