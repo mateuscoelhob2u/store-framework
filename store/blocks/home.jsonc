@@ -3,12 +3,13 @@
     "blocks": [
       "rich-text",
       "info-card",
-      //se voce quiser criar dois blocos do mesmo estilo, se faz nescessario nomear o bloco, atraves de um #
+//se voce quiser criar dois blocos do mesmo estilo, se faz nescessario nomear o bloco, atraves de um #
       "info-card#button-right", 
       "info-card#button-left", 
+//no momento da declaracao de blocos tipo felx, apenas o flex.row deve ser declarado aqui. o .col vem como flex secundario.
       "flex-layout.row",
-      "flex-layout.col",
-      "rich-text"
+      "rich-text",
+      "shelf"
     ]
   },
 
@@ -65,7 +66,8 @@
     }
   
   },
-  
+  //agora declararemos os flex layouts com seus children. note que o flex.col deve ser declarado dentro do .row
+  //e nao dentro dos blocks
   
   "flex-layout.row":{
     "children": [
@@ -91,6 +93,9 @@
       "textPosition": "center"
     }
   },
+
+//aqui declaramos os children com suas caracteristicas.
+
   "image#electronics": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
