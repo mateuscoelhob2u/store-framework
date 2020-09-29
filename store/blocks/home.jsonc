@@ -8,10 +8,10 @@
       "info-card#button-left", */
       "flex-layout.row":{
         "children": [
-          "info-card#rethink",
-          "rich-text#deletar"
+          "info-card#rethink"
         ]
       },
+    
       "flex-layout.col":{
         "children": [
           "image#electronics",
