@@ -6,29 +6,14 @@
       //se voce quiser criar dois blocos do mesmo estilo, se faz nescessario nomear o bloco, atraves de um #
       "info-card#button-right", 
       "info-card#button-left", 
-      "flex-layout.row":{
-        "children": [
-          "info-card#rethink"
-        ],
-        "flex-layout.col":{
-          "children": [
-            "image#electronics",
-            "image#major-appliance"
-          ]
-        }
-      }
-    
+      "flex-layout.row",
+      "rich-text"
     ]
   },
-    "rich-text": {
-      "props":{
-        // para ver estililos de um texto, acesse: https://www.markdownguide.org/cheat-sheet/
-        "text": "**Primeiro exemplo de printf direto no site, em negrito**",
-        "textPosition" :"RIGHT"
 
 //Para acessar essas infos de rich text, acesse: https://vtex.io/docs/app/vtex.rich-text@0.11.0/    Este exemplo mostra como utilizar as propriedades do rich text por completo.
 //as props podem se aplicar de maneira a alinhar e estilizar o texto de diferentes formas...
-  "rich-text":  {
+  "rich-text" :  {
    "props": {
      "textAlignment": "CENTER",
       "textPosition": "CENTER",
@@ -36,23 +21,11 @@
       "textColor": "c-on-emphasis",
       "font": "t-heading-5",
       "blockClass": "help-message"
-            }
-                }
-        
-    
-      }
-
+    }
   },
   //repare que agora, para inserirmos o bloco de infocard, devemos separar com uma virgula, logo
   //depois do bloco rich text.
 
-  "info-card": {
-
-
-
-
-  },
-  
 //agora estou criando os infocards diferenciados, de acordo com o solicitado no curso. observe as props
 
   "info-card#button-right": {
