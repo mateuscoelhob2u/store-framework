@@ -1,11 +1,11 @@
 {
   "store.home": { 
     "blocks": [
-      /*"rich-text",
+      "rich-text",
       "info-card",
       //se voce quiser criar dois blocos do mesmo estilo, se faz nescessario nomear o bloco, atraves de um #
       "info-card#button-right", 
-      "info-card#button-left", */
+      "info-card#button-left", 
       "flex-layout.row":{
         "children": [
           "info-card#rethink"
@@ -20,14 +20,14 @@
     
     ]
   },
-/*    "rich-text": {
+    "rich-text": {
       "props":{
         // para ver estililos de um texto, acesse: https://www.markdownguide.org/cheat-sheet/
         "text": "**Primeiro exemplo de printf direto no site, em negrito**",
         "textPosition" :"RIGHT"
-/*
-Para acessar essas infos de rich text, acesse: https://vtex.io/docs/app/vtex.rich-text@0.11.0/    Este exemplo mostra como utilizar as propriedades do rich text por completo.
-as props podem se aplicar de maneira a alinhar e estilizar o texto de diferentes formas...
+
+//Para acessar essas infos de rich text, acesse: https://vtex.io/docs/app/vtex.rich-text@0.11.0/    Este exemplo mostra como utilizar as propriedades do rich text por completo.
+//as props podem se aplicar de maneira a alinhar e estilizar o texto de diferentes formas...
   "rich-text":  {
    "props": {
      "textAlignment": "CENTER",
@@ -71,9 +71,9 @@ as props podem se aplicar de maneira a alinhar e estilizar o texto de diferentes
 
     }
   },  
-/*se voce reparar, existe uma linha chamada BLOCKCLASS, ela eh responsavel por estilizar o bloco.
-os parametros dessa estilizacao estao presentes no arquivo vtex.store-components.css, localizado
-na pasta de css
+//se voce reparar, existe uma linha chamada BLOCKCLASS, ela eh responsavel por estilizar o bloco.
+//os parametros dessa estilizacao estao presentes no arquivo vtex.store-components.css, localizado
+//na pasta de css
   "info-card#button-left": {
     "props": {
         "isFullModeStyle": false,
@@ -89,7 +89,7 @@ na pasta de css
 
 
     }
-  },  */
+  },
 
   "info-card#rethink": {
     "props": {
@@ -100,13 +100,6 @@ na pasta de css
       "textPosition": "center"
     }
   },
-  
-  "rich-text#deletar": {
-    "props": {
-      "text": "I'll be deleted soon"
-    }
-  },
-
   "image#electronics": {
     "props": {
       "src": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/electronics_banner___25d69b49f8224b369375e68513b4d593.png",
