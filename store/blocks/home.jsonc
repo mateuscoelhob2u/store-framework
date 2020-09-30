@@ -66,8 +66,7 @@
         "callToActionText": "Go to Collection",
         "callToActionUrl": "/sale/d",
         "textAlignment": "center",
-        "blockClass": "metal",
-        "widht": "20%"
+        "blockClass": "metal"
 
 
     }
