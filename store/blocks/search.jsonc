@@ -44,15 +44,12 @@
   },
 
   "flex-layout.col#filter":{
+    "props":{"width":"20%"},
     "children":[
 
       "filter-navigator.v3"
 
-    ],
-        "props":{
-          "widht":"20%"
-
-    }
+    ]
   },
 
         "flex-layout.col#search":{
