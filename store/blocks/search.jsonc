@@ -23,34 +23,30 @@
       "flex-layout.row#results",
       "search-fetch-more" 
     ]
+    
 
   },
 
   "flex-layout.row#top": {
     "children":[
     "total-products.v2",
-     "order-by.v2",
-     "search-content"
+     "order-by.v2"
     ]
   },
   
   "flex-layout.row#results":{
     "children":[
       "flex-layout.col#filter",
-      "flex-layout.col#search",
-      "filter-navigator.v3"
+      "flex-layout.col#search"
 
 
-    ],
-    "props":{
-      "widht":"20%"
-    }
-
+  ]
   },
 
   "flex-layout.col#filter":{
     "children":[
-      "search-content"
+
+      "filter-navigator.v3"
 
     ],
         "props":{
@@ -61,7 +57,7 @@
 
         "flex-layout.col#search":{
           "children":[
-             "filter-navigator.v3"
+            "search-content"
     ]
   },
 
