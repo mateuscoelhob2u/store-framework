@@ -1,3 +1,5 @@
+/* comentei porque com esse codigo ativado o site quebrava
+
 {
   "store.search": {
     "blocks": [
@@ -67,4 +69,4 @@
   }
 
 
- }
+ }  */
