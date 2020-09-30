@@ -53,15 +53,15 @@
 
   "product-price" : {
     "props": {
-      
+      "showSavings": "true",
+      "showListPrice" : "true"
 
     }
   },
 
   "buy-button" : {
     "props": {
-      "showSavings": "true",
-      "showListPrice" : "true"
+      
       
 
     }
