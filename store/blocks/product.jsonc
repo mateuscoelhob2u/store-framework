@@ -26,7 +26,8 @@
     "children": [
       "product-name",
       "product-price",
-      "buy-button"
+      "buy-button",
+      "breadcrumb"
 
     ],
     "props": {
@@ -50,7 +51,7 @@
   },
   "shipping-simulator": {
     "props":{
-      
+
     }
   },
 
