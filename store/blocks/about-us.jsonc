@@ -27,8 +27,8 @@
         
         "tab-list.item#home1": {
           "props": {
-            "tabId": "SOBRE",
-            "label": "SOBRE",
+            "tabId": "Sobre",
+            "label": "Sobre",
             "defaultActiveTab": true
           }
         },
@@ -44,7 +44,7 @@
             "rich-text#home1"
           ],
           "props": {
-            "tabId": "SOBRE"
+            "tabId": "Sobre"
           }
         },
         "tab-content.item#home2": {
