@@ -2,7 +2,9 @@
   "store.product": {
     "children": [
       "flex-layout.row#main",
-      "buy-button"
+      "flex-layout.row#qty-sku",
+      "buy-button",
+      "breadcrumb"
     ]
   },
   "flex-layout.row#main": { 
@@ -25,6 +27,7 @@
       "product-name",
       "product-price",
       "buy-button"
+
     ],
     "props": {
       "preventVerticalStretch": true,
@@ -32,6 +35,34 @@
 
     }
   },
+
+  "flex-layout.row#qty-sku": {
+    "children": [
+      "sku-selector",
+      "product-quantity",
+      "shipping-simulator"
+    ],
+    "props":{
+      "preventVerticalStretch":"true",
+      "width": "30%"
+
+    }
+  },
+  "shipping-simulator": {
+    "props":{
+      
+    }
+  },
+
+  "product-quantity": {
+    "props": {
+      "warningQuantityThreshold": 9999999
+    }
+  },
+
+
+
+  //https://vtex.io/docs/components/product-related/ nesse link temos tudo sobre carrinho de produtos
 
   "product-images": {
     "props": {
@@ -46,9 +77,13 @@
 
   "product-name" : {
     "props": {
+      "product-identifier.product": "true"
 
 
     }
+  },
+  "product-identifier.product":{
+
   },
 
   "product-price" : {
