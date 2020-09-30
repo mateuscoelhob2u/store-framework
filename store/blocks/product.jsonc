@@ -1,6 +1,72 @@
 {
   "store.product": {
     "children": [
+      "flex-layout.row#main",
+      "buy-button"
     ]
+  },
+  "flex-layout.row#main": { 
+    "props": { 
+      "marginTop": 6
+    },
+    "children": [
+      "flex-layout.col#left",
+      "flex-layout.col#right"
+    ]
+  },
+
+  "flex-layout.col#left": {
+    "children": [
+      "product-images"
+    ]
+  },
+  "flex-layout.col#right": {
+    "children": [
+      "product-name",
+      "product-price",
+      "buy-button"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "verticalAlign": "middle"
+
+    }
+  },
+
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true,
+      "zoomFactor": 2,
+      "zoomMode": "open-modal",
+      "src": "https://diferencialprint.vteximg.com.br/arquivos/ids/164862-1000-1000/1000x1000-Prensa-Forno-3D-live-Sub-para-sublimacao_0005_Layer-3.jpg?v=637177237010770000",
+      "aspectRatio": "auto"
+
+    }
+  },
+
+  "product-name" : {
+    "props": {
+
+
+    }
+  },
+
+  "product-price" : {
+    "props": {
+      
+
+    }
+  },
+
+  "buy-button" : {
+    "props": {
+      "showSavings": "true",
+      "showListPrice" : "true"
+      
+
+    }
   }
+
+  
+
 }
