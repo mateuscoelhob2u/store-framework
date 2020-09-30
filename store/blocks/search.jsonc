@@ -22,7 +22,8 @@
       "search-fetch-previous",
       "flex-layout.row#results",
       "search-fetch-more" 
-    ]
+    ],
+    "props":{"widht":"20%"}
 
   },
 
