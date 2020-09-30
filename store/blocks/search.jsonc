@@ -22,25 +22,30 @@
       "search-fetch-previous",
       "flex-layout.row#results",
       "search-fetch-more" 
-    ],
-    "props":{"widht":"20%"}
+    ]
 
   },
 
   "flex-layout.row#top": {
     "children":[
     "total-products.v2",
-     "order-by.v2"
+     "order-by.v2",
+     "search-content"
     ]
   },
   
   "flex-layout.row#results":{
     "children":[
       "flex-layout.col#filter",
-      "flex-layout.col#search"
+      "flex-layout.col#search",
+      "filter-navigator.v3"
 
 
-  ]
+    ],
+    "props":{
+      "widht":"20%"
+    }
+
   },
 
   "flex-layout.col#filter":{
