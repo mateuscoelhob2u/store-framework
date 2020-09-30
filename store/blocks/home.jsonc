@@ -14,7 +14,8 @@
       "responsive-layout.desktop#desktop",
       "responsive-layout.mobile#mobile",
       "flex-layout.col#right",
-      "flex-layout.col#left"
+      "flex-layout.col#left",
+      "search-result-layout"
     ]
   },
 
