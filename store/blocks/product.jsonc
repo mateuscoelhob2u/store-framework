@@ -46,7 +46,7 @@
 
 
 
-  //https://vtex.io/docs/components/product-related/ nesse link temos tudo sobre carrinho de produtos
+  //https://vtex.io/docs/components/product-related/ nesse link temos tudo sobre carrinho de produtos e devemos usar bastante
 
   "product-images": {
     "props": {
