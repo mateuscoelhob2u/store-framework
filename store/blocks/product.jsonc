@@ -3,7 +3,6 @@
     "children": [
       "breadcrumb",
       "flex-layout.row#main",
-      "flex-layout.row#qty-sku",
       "buy-button"
     ]
   },
@@ -27,6 +26,8 @@
       "product-name",
       "product-identifier.product",
       "product-price",
+      "flex-layout.row#qty-sku",
+
       "buy-button",
       "breadcrumb",
       "shipping-simulator"
