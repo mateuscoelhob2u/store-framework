@@ -19,61 +19,6 @@
         "header-row#menu"
       ]
     },
-
-    "header-row#menu": {
-      "children": [
-        "header-spacer",
-        "vtex.menu@2.x:menu#categories",
-        "header-spacer"
-      ]
-    },
-    
-      "vtex.menu@2.x:menu#categories": {
-        "children": [
-          "menu-item#major-appliances",
-          "menu-item#small-appliances",
-          "menu-item#electronics"
-        ],
-      
-        "props":{
-          "orientation": "horizontal"
-        }
-      },
-      "vtex.menu@2.x:submenu#major":{
-        "children":[
-          "vtex.menu@2.x:menu#major",
-          "menu-item#refrigerators",
-          "menu-item#ovens",
-          "menu-item#washers"
-        ],
-        "props":{
-          "orientation":"vertical"
-        }
-      },
-      "vtex.menu@2.x:submenu#small":{
-        "children":[
-          "vtex.menu@2.x:menu#small",
-          "menu-item#mixers",
-          "menu-item#toasters",
-          "menu-item#coffee"
-        ],
-        "props":{
-          "orientation":"vertical"
-        }
-      },
-      "vtex.menu@2.x:submenu#electronics":{
-        "children":[
-          "vtex.menu@2.x:menu#electronics",
-          "menu-item#cameras",
-          "menu-item#laptops",
-          "menu-item#tvs"
-        ],
-        "props":{
-          "orientation":"vertical"
-        }
-      },
-
-
   
     "header-layout.mobile": {
       "children": [
@@ -146,6 +91,48 @@
       "props": {
         "text": "**Free Shipping on orders over $50**",
         "textPosition": "CENTER"
+      }
+    },
+
+    "header-row#menu": {
+      "children": [
+        "header-spacer",
+        "vtex.menu@2.x:menu#categories",
+        "header-spacer"
+      ]
+    },
+    "vtex.menu@2.x:submenu#major":{
+      "children":[
+        "menu-item#refrigerators",
+        "menu-item#oven",
+        "menu-item#washers"
+
+      ],
+
+      "props":{
+        "orientation": "vertical"
+      }
+    },
+    "vtex.menu@2.x:submenu#small":{
+      "children":[
+        "menu-item#mixers",
+        "menu-item#toasters",
+        "menu-item#coffee"
+      ],
+
+      "props":{
+        "orientation": "vertical"
+      }
+    },
+    "vtex.menu@2.x:submenu#electronics":{
+      "children":[
+        "menu-item#cameras",
+        "menu-item#laptops",
+        "menu-item#tvs"
+      ],
+
+      "props":{
+        "orientation": "vertical"
       }
     }
 
