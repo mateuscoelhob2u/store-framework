@@ -18,7 +18,7 @@
       "search-result-layout"
     ]
   },
-
+//aaa
 //Para acessar essas infos de rich text, acesse: https://vtex.io/docs/app/vtex.rich-text@0.11.0/    Este exemplo mostra como utilizar as propriedades do rich text por completo.
 //as props podem se aplicar de maneira a alinhar e estilizar o texto de diferentes formas...
   "rich-text" :  {
