@@ -31,8 +31,8 @@
             "itemProps": {
               "text": "Major Aplliances"
             },
-            "blocks": [
-              "vtex.menu@2.x:submenu#major"
+            "children": [
+                "vtex.menu@2.x:submenu#major"
             ]
           }
         },
