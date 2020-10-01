@@ -32,7 +32,7 @@
     }
   },
   //repare que agora, para inserirmos o bloco de infocard, devemos separar com uma virgula, logo
-  //depois do bloco rich text.
+  //depois do bloco rich text..
 
 //agora estou criando os infocards diferenciados, de acordo com o solicitado no curso. observe as props
 
