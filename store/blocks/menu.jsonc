@@ -19,7 +19,8 @@
       "children":[
         "menu-item#refrigerators",
         "menu-item#ovens",
-        "menu-item#washers"
+        "menu-item#washers",
+        "menu-item#major-appliances"
       ],
       "props":{
         "orientation": "vertical"
