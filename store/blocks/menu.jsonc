@@ -17,7 +17,8 @@
         "children": [
             "menu-item#refrigerators",
             "menu-item#ovens",
-            "menu-item#washers"
+            "menu-item#washers",
+            "flex-layout.row#major"
         ]
     },
     "vtex.menu@2.x:menu#small": {
