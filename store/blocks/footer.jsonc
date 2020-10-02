@@ -2,7 +2,8 @@
 "flex-layout.row#footer-1-desktop": {
     "children": [
       "flex-layout.col#footer-left-desktop",
-      "flex-layout.col#footer-right-desktop"
+      "flex-layout.col#footer-right-desktop",
+      "flex-layout.row"
     ],
     "props": {
       "blockClass": "footer-row",
